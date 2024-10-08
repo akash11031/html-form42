@@ -1,0 +1,1250 @@
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Global CSS start*/
+:root{
+    --sada:#ffffff;
+    --kala:#000000;
+    --banner:#00b2ff;
+    --nil:rgb(9, 22, 120) ;
+    
+    
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;  
+}
+
+body{
+  font-family: "Montserrat", sans-serif;   
+
+}
+
+h1{
+   
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;  
+}
+
+h3{
+    
+}
+
+h4{
+   
+}
+
+h5{
+    
+}
+
+h6{
+   
+}
+
+p{
+    
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.box{
+
+}
+
+.box div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 6px solid rgba(137, 144, 145, 0.8);
+    border-radius: 30%;
+}
+
+.box div:nth-child(1){
+    top: 185%;
+    left: 28%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top: 180%;
+    left: 42%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(3){
+    top: 142%;
+    left: 8%;
+    animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(4){
+    top: 160%;
+    left: 62%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top: 180%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(6){
+    top: 154%;
+    left: 35%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(7){
+    top: 185%;
+    left: 58%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(8){
+    top: 160%;
+    left: 22%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(9){
+    top: 138%;
+    left: 75%;
+    animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(10){
+    top: 188%;
+    left: 90%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(11){
+    top: 195%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+.box div:nth-child(12){
+    top: 140%;
+    left: 50%;
+    animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(13){
+    top: 138%;
+    left: 89%;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform:scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+#preloader{
+    background: #fff url(../img/DxrL.gif) center center no-repeat;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+iframe{
+    display: none;
+}
+/* Global CSS start*/
+
+/* header section CSS start*/
+
+
+header{
+
+}
+
+
+/* header section CSS end*/
+
+/* bennar section CSS start*/
+.bennar-section .container{
+ background: url(../img/banner.png) center center no-repeat;
+ background-size: cover;
+ height: 90vh;
+}
+
+.bennar-section .bennar{
+
+}
+
+.bennar-section .bennar h4{
+    color: var(--sada);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 80px 43% 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+
+.bennar-section .b-inner{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ 
+.bennar-section .b-inner .text-area{
+    font-size: 70PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ 
+.bennar-section .b-inner .text-area span{
+   color: white;
+   opacity: 0; 
+   transform: rotate(-180deg) translate(150px, 0);
+   animation: banner 6s infinite forwards;
+   -webkit-text-stroke: 2px rgba(8, 237, 225, 0.703);
+   /*  */
+   text-shadow: 4px 4px 2px rgb(255, 217, 0);
+   display: inline-block;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(2){
+    animation-delay: .1s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(3){
+    animation-delay: .2s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(4){
+    animation-delay: .3s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(5){
+    animation-delay: .4s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(6){
+    animation-delay: .5s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(7){
+    animation-delay: .6s;
+}
+
+.bennar-section .b-inner .text-area span:nth-of-type(8){
+    animation-delay: .7s;
+}
+
+@keyframes banner{
+    10%{
+        opacity: 1;
+    }
+    100%{
+        transform:rotate(0deg) translate(0);
+        opacity: 1;
+    }
+}
+
+/* // */
+.bennar-section .b-date{
+ overflow: hidden; 
+ padding: 18% 0% 3% 41%;
+ 
+ 
+    
+}
+
+.bennar-section .b-date .text{
+    position: relative;
+    color: rgb(183, 255, 0);
+    font-weight: 600;
+    font-size: 30px;
+    background:#05051e ;
+}
+
+.bennar-section .b-date .f1-text{
+    color: var(--sada);
+
+}
+
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#060617  ;
+    border-left: 2px solid rgb(183, 255, 0);
+    animation: banner2 4s steps(15) infinite;
+}
+
+@keyframes banner2{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+} 
+
+
+/* // */
+.bennar-section .bennar a{
+ color: var(--sada);
+ font-size: 16px;
+ font-weight: 600;
+ text-align: center;
+ padding-left: 43%;
+ transition: 0.4s;
+}
+
+.bennar-section .bennar:hover a{
+    color: rgb(0, 215, 201); 
+    transition: 0.4s;
+    font-size: 17px;
+    padding-left: 42.5%;
+}
+
+
+
+
+/* bennar section CSS end*/
+
+/* Feathur section CSS start*/
+.feathur-section{
+
+}
+
+.feathur-section .ft-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-height: 20vh;
+}
+
+.feathur-section .ft-heading h2{
+    /* padding: 30px 0px 10px; */
+    position: relative;
+    color: white; 
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+
+    
+}
+
+.feathur-section .ft-heading h2::before{
+ content: attr(data-text);
+ position: absolute;
+ top: 0%;
+ left: 0;
+ width: 0%;
+ height: 100%;
+ color: var(--banner);
+ -webkit-text-stroke: 0vw #383d52;
+ border-right: 2px solid var(--banner);
+ overflow: hidden;
+ animation: heading 6s linear infinite;
+ 
+}
+
+@keyframes heading{
+    0%,10%,100%{
+        width: 0;
+    }
+    70% ,90%{
+        width: 100%;
+    }
+}
+
+.feathur-section .ft-inner{
+    display: flex;
+    padding: 25px 30px;
+}
+
+.feathur-section .ft-inner i{
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #596872;
+}
+
+.feathur-section .ft-inner .fi-heading{
+    
+}
+
+.feathur-section .ft-inner .fi-heading h6{
+    color: #445058;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feathur-section .ft-inner .fi-heading p{
+    color: #445058;
+    font-size: 14px;
+    font-weight: 300;
+    width: 90%;
+
+}
+
+/* Feathur section CSS end*/
+
+/* service section CSS start*/
+.Service-Section{
+
+}
+
+.Service-Section .Service-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-height: 10vh;
+    padding-top: 10px;
+}
+
+.Service-Section .Service-heading h2{
+    /* padding: 30px 0px 10px; */
+    position: relative;
+    color: white; 
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+
+    
+}
+
+.Service-Section h2::before{
+ content: attr(data-text);
+ position: absolute;
+ top: 0%;
+ left: 0;
+ width: 0%;
+ height: 100%;
+ color: var(--banner);
+ -webkit-text-stroke: 0vw #383d52;
+ border-right: 2px solid var(--banner);
+ overflow: hidden;
+ animation: heading 6s linear infinite;
+ 
+}
+
+.Service-Section .sr-main{
+margin: 100px 0 50px;
+ width: 100%;
+ min-height: 380px;
+ text-align: center;
+ position: relative;
+ cursor: pointer;
+}
+
+.Service-Section .sr-main .sr-inner{
+ background: var(--banner);
+ padding: 30px;
+ border-radius: 10px;
+ position: absolute;
+ bottom: 0;
+ z-index: 1;
+ box-shadow: 0 0 20px -15px #030380;
+ transition: 0.3s;
+}
+
+.Service-Section .sr-main .sr-inner .sr-logo{
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ margin: -90px auto 0;
+ background: var(--banner);
+ border: 18px solid var(--sada);
+}
+
+.Service-Section .sr-main .sr-inner .sr-logo img{
+ width: 50px;
+ margin-top: 20px;
+ transition: 0.8s;
+}
+
+.Service-Section .sr-main:hover .sr-inner .sr-logo img{
+  transform: rotate(360deg);
+  transition: 0.8s;
+}
+
+.Service-Section .sr-main .sr-inner h4{
+ height: 35px;
+ width: 80%;
+ background: var(--banner);
+ margin: 50px auto;
+ position: relative;
+ color: var(--sada);
+ font-size: 22px;
+ font-weight: 600;
+
+}
+
+.Service-Section .sr-main .sr-inner h4::after{
+ content: '';
+ width: 40px;
+ height: 30px;
+ background: linear-gradient(to right,#fff,#571775);
+ position: absolute;
+ right: -5px;
+ top: -5px;
+ z-index: -1;
+
+}
+
+.Service-Section .sr-main .sr-inner h4::before{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #571775,#fff);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+
+}
+
+.Service-Section .sr-main .sr-inner p{
+    margin-top: -20px;
+}
+
+.Service-Section .sr-main .shadow-1{
+    height: 200px;
+    width: 80%;
+    background: var(--banner);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: 0.3s;
+}
+
+.Service-Section .sr-main .shadow-2{
+    height: 200px;
+    width: 64%;
+    background: var(--banner);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: 0.8s;
+}
+
+
+
+.Service-Section .sr-main:hover .sr-inner{
+    transform: translateY(-50px);
+    transition: 0.3s;
+}
+
+.Service-Section .sr-main:hover .shadow-1{
+    transform: translateY(-25px);
+    transition: 0.3s;
+}
+
+.Service-Section .sr-main:hover .shadow-2{
+    
+}
+
+
+
+/* service section CSS end*/
+
+/* price section CSS start*/
+.price-section{
+
+}
+
+.price-section .price-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-height: 20vh;
+    padding-top: 10px;
+}
+
+.price-section .price-heading h2{
+    /* padding: 30px 0px 10px; */
+    position: relative;
+    color: white; 
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+
+    
+}
+
+.price-section .price-heading h2::before{
+ content: attr(data-text);
+ position: absolute;
+ top: 0%;
+ left: 0;
+ width: 0%;
+ height: 100%;
+ color: var(--banner);
+ -webkit-text-stroke: 0vw #383d52;
+ border-right: 2px solid var(--banner);
+ overflow: hidden;
+ animation: heading 6s linear infinite;
+ 
+}
+
+.price-section .price-inner{
+ border: 1px solid var(--nil);
+ border-radius: 10px;
+ text-align: center;
+ margin: 0px 15px;
+}
+
+.price-section .price-inner .pr-header{
+
+}
+
+.price-section .price-inner .pr-header h5 {
+    padding: 15px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--nil);
+    border-radius: 10px 10px 0px 0px;
+    color: var(--sada);
+    background:linear-gradient(108.18deg, #7b2121 -12.2%, rgb(9, 22, 120) 60%);
+    transition: 0.3s;
+}
+
+.price-section .price-inner:hover .pr-header h5 { 
+    color: var(--banner);
+    background:linear-gradient(108.18deg, #9fdb09 -12.2%, rgb(120, 9, 31) 60%);
+    transition: 0.3s;
+}
+
+.price-section .price-inner .pr-body{
+
+}
+
+.price-section .price-inner .pr-body h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 20px 0px;
+    border: 1px solid rgb(103, 6, 6);
+    border-radius: 24%;
+    background: linear-gradient(108.18deg, #26beb2 -12.2%, rgba(28, 25, 207, 0.744) 60%);
+    transition: 0.3s;
+    
+}
+
+.price-section .price-inner:hover .pr-body h1{
+    color: rgb(210, 17, 129); 
+    transition: 0.3s;
+    background: linear-gradient(108.18deg, #a7293c -12.2%, rgba(25, 192, 207, 0.744) 60%);
+}
+
+.price-section .price-inner .pr-body h1 sup{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic; 
+    transition: 0.3s;
+    
+
+}
+
+.price-section .price-inner:hover .pr-body h1 sup{
+   color: rgb(103, 6, 6); 
+    transition: 0.3s;
+
+}
+
+.price-section .price-inner .pr-footer{
+    border-top: 10px solid var(--nil);
+}
+
+.price-section .price-inner .pr-footer p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    padding: 5px 0px 0px;
+}
+
+.price-section .price-inner .pr-footer .pr-btn{
+margin-bottom: 15px;
+}
+
+.price-section .price-inner .pr-footer .pr-btn a{
+    padding: 8px 45px;
+    border: 1px solid var(--nil);
+    background: linear-gradient(120.18deg,  rgb(31, 125, 34)  -12.2%,#3522c5  60%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.price-section .price-inner:hover .pr-footer .pr-btn a{
+    background: linear-gradient(120.18deg,  rgb(12, 103, 164)  -12.2%,#c55322  60%);
+    color: #190909;
+    transition: 0.3s;
+}
+
+
+/* price section CSS end*/
+
+/* contact section CSS start*/
+.contact-section{
+ margin: 40px 0px 0px;
+}
+
+.contact-section .container{
+    background: url(../img/contact.jpg) center center no-repeat;
+    background-size: cover;
+   }
+
+.contact-section .cn-heading{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.contact-section .cn-heading h2{
+    color: var(--sada);
+}
+
+.contact-section .cn-heading p{
+    width: 100%;
+    padding: 0px 20%;
+    color: var(--sada);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* left */
+.contact-section .cn-left{
+    padding: 20px 0px 90px 40px;
+}
+
+.contact-section .cn-left .cn-contant{
+    padding: 10px;
+}
+
+.contact-section .cn-left .cn-contant .cl-icon{
+   margin-right: 15px;
+}
+
+.contact-section .cn-left .cn-contant .cl-icon i{
+    font-size: 20px;
+    padding: 15px 18px;
+    border: 1px solid var(--sada);
+    border-radius: 50%;
+    background: var(--sada);
+    transition: 0.3s;
+}
+
+.contact-section .cn-left .cn-contant:hover .cl-icon i{
+    background: rgba(14, 162, 225, 0.87);
+    color: var(--sada);
+    border: 1px solid rgba(14, 162, 225, 0.87);
+    transition: 0.3s;
+}
+
+.contact-section .cn-left .cn-contant .cl-text{
+    
+}
+
+.contact-section .cn-left .cn-contant .cl-text h5{
+   color: var(--banner); 
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.contact-section .cn-left .cn-contant .cl-text p{
+    color: var(--sada); 
+    font-size: 16px;
+   font-weight: 400;
+}
+
+/* right */
+.contact-section .cn-right{
+    
+}
+
+.contact-section .cn-right form{
+    background: url(../img/cntk.png) center center no-repeat;
+    background-size: cover;
+    width: 70%;
+    padding: 40px 30px;
+}
+
+.contact-section .cn-right form h4{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: var(--sada);
+ 
+}
+
+.contact-section .cn-right form .form-control{
+    border: none;
+    border-radius: 0%;
+    border-bottom: 2px solid var(--banner);
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.contact-section .cn-right form input::placeholder{
+    
+}
+
+.contact-section .cn-right form textarea{
+    
+}
+
+.contact-section .cn-right form .f-btn{
+    margin-top: 20px;
+}
+
+.contact-section .cn-right form .f-btn a{
+    color: var(--sada);
+    padding: 10px 25px;
+    border: 1px solid var(--banner);
+    background: var(--banner);
+    transition: 0.4s;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.contact-section .cn-right form .f-btn a:hover{
+    color: var(--nil);
+    background:rgb(77, 194, 4) ;
+    transition: 0.4s;
+    
+}
+
+
+/* contact section CSS end*/
+
+/* footer section CSS start*/
+footer{
+background: var(--kala);
+}
+
+footer .f-footer{
+    border-bottom: 1px solid rgb(134, 128, 128);
+}
+
+footer .f-footer .ff-inner1{
+    padding: 50px 25px;
+}
+
+footer .f-footer .ff-inner1 img{
+    width:50px;
+}
+
+footer .f-footer .ff-inner1 span{
+    color: var(--sada);
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+footer .f-footer .ff-inner1 p{
+    color: rgb(189, 185, 185);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 0px 5px;
+}
+
+footer .f-footer .ff-inner1 .ff-icon{
+    
+}
+
+footer .f-footer .ff-inner1 .ff-icon i{
+    padding: 15px;
+    background: rgb(153, 19, 19);
+    border-radius: 20%;
+    border: 1px solid rgb(153, 19, 19) ;
+    margin-right: 10px;
+    color: var(--sada);
+    font-size: 16px;
+    transition: 0.3s;
+
+}
+
+footer .f-footer .ff-inner1 .ff-icon i:hover{
+    color:#8d145f ;
+    border: 1px solid rgb(0, 195, 255);
+    background: rgb(0, 195, 255);
+    border-radius: 20%;
+    transition: 0.3s;
+}
+
+footer .f-footer .ff-inner1 .ff-icon .l{
+    padding: 15px 17px;
+    
+}
+
+/* 2nd */
+footer .f-footer .ff-inner2{
+    padding: 55px 25px;
+}
+
+footer .f-footer .ff-inner2 h3{
+    color: var(--sada);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+footer .f-footer .ff-inner2 .ff-p{
+    
+}
+
+footer .f-footer .ff-inner2 .ff-p i{
+    color: rgb(189, 185, 185);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 0px 5px;
+    margin-right: 10px;
+}
+
+footer .f-footer .ff-inner2 .ff-p span{
+    color: rgb(189, 185, 185);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 0px 5px;
+}
+
+/* 3rd */
+
+footer .f-footer .ff-inner3{
+    padding: 55px 25px;
+}
+
+footer .f-footer .ff-inner3 h3{
+    color: var(--sada);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+footer .f-footer .ff-inner3 .ff-a{
+    display: flex;
+    padding-top: 15px;
+}
+
+footer .f-footer .ff-inner3 .ff-a .ff-add{
+    
+}
+
+footer .f-footer .ff-inner3 .ff-a .ff-i{
+    margin-right: 10px;
+}
+
+footer .f-footer .ff-inner3 .ff-a .ff-i i{
+    color: rgb(153, 19, 19);
+    padding: 8px;
+    font-size: 25px;
+    border: 1px solid #302e2e;
+    background: #302e2e;
+    border-radius: 15%;
+    transition: 0.3s;
+    
+}
+
+footer .f-footer .ff-inner3 .ff-a:hover .ff-i i{
+    color: rgb(149, 0, 255);
+    border: 1px solid #8d7b14;
+    background: #8d7b14;
+    border-radius: 20%;
+    transition: 0.3s;
+}
+
+footer .f-footer .ff-inner3 .ff-a .ff-add p{
+    color: rgb(189, 185, 185);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* footer 2 */
+footer .s-footer{
+ display: flex;
+ justify-content: space-between;
+}
+
+footer .s-footer{
+    color: rgb(189, 185, 185);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 25px 30px 15px; 
+}
+
+footer .s-footer:hover{
+    color: rgb(252, 235, 235);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* footer section CSS end*/
+header .container{
+    
+    transition: 0.3s;
+}
+
+header .logo{
+    background: #00000c;
+    position: relative;
+    transition: 0.3s;  
+  }
+  
+  header .logo img{ 
+  padding-left: 25px;
+  width: 90%;
+  }
+  
+  header .logo .l-line{
+  position: absolute;
+  width: 60px;
+  height: 101%;
+  top: 0;
+  left: 165px;
+  background: #00000c;
+  clip-path: polygon(100% 0%, 65% 65%, 100% 100%, 0% 100%, 0 50%, 0 0);
+  }
+
+  /* first header */
+  header .f-header{
+      display: flex;
+      justify-content: space-between;
+   background:linear-gradient(108.18deg, #7b2121 -12.2%, rgb(9, 22, 120) 60%);
+   transition: 0.3s;
+  }
+  
+  header .f-header .fh-1{
+  
+  }
+  
+  header .f-header .fh-1 .nav-item{
+  
+  }
+  
+  header .f-header .fh-1 .nav-link{
+   color: var(--sada);
+   padding-left: 30px;
+  }
+  
+  header .f-header .fh-2{
+   padding-top: 8px;
+  }
+  
+  header .f-header .fh-2 i{
+   color: red;
+   margin-right: 8px;
+   font-size: 16px;
+   font-weight: 600;
+  }
+  
+  header .f-header .fh-2 span{
+      color: var(--sada);
+      margin-right: 25px;
+      font-size: 14px;
+  }
+  
+  /* *******second header******* */
+  header .s-header{
+      margin: 0;
+      padding: 0;
+  }
+  
+  header .s-header .nav-item {
+      position: relative;
+      margin-right: 15px;
+      margin-top: 10px;
+      bottom: 4px;
+      transition: 0.3s;
+  }
+  
+  
+  header .s-header .nav-item::after{
+      content:'';
+      width: 100%;
+      height: 3px;
+      background:rgb(9, 22, 120) ;
+      position: absolute;
+      transform: scale(0%, 100%);
+      transition: 0.5s;
+  }
+  
+  header .s-header .nav-item:hover::after{
+      transform: scale(100%, 100%);
+      transition: 0.5s;
+  }
+  
+  header .s-header .nav-link{
+      color: var(--nil);
+      font-size: 16px;
+      font-weight: 600;
+      transition: 0.3s;
+  
+  }
+  
+  header .s-header .nv-btn1{
+   margin:0px 20px ;
+  }
+  
+  header .s-header .nv-btn1 a{
+      padding: 8px 15px;
+      border: 1px solid var(--kala);
+      color: var(--kala);
+      font-size: 16px;
+      font-weight: 600;
+      transition: 0.3s;
+      
+  }
+  
+  header .s-header .nv-btn1 a:hover{
+      border: 1px solid rgb(9, 22, 120);
+      color: var(--sada);
+      background: rgb(9, 22, 120);
+      transition: 0.3s;
+      
+  }
+  
+  header .s-header .nv-btn2{
+      
+  }
+  
+  header .s-header .nv-btn2 a{
+      padding: 8px 15px;
+      border: 1px solid rgb(9, 22, 120);
+      color: var(--sada);
+      font-size: 16px;
+      font-weight: 600;
+      background:var(--nil) ;
+      transition: 0.3s;
+  }
+  
+  header .s-header .nv-btn2 a:hover{
+      border: 1px solid var(--kala);
+      color:rgb(9, 22, 120) ;
+      background: var(--sada);
+      transition: 0.3s;
+  }
+/* sticky css start */
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background-color: #000000; */
+    
+
+    transition: 0.3s ease;
+    z-index: 9;
+}
+
+.sticky .container{
+    transition: 0.3s ease;
+    background-color: #000000;
+    
+}
+
+
+  
+.sticky .s-header .nav-link{
+    color: var(--sada);
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 15px;
+    transition: 0.3s ease;
+}
+
+.sticky .f-header{
+    display: none;
+    transition: 0.3s ease;
+
+}
+
+.sticky .logo img{
+    width:55% ;
+ transition: 0.3s ease;
+}
+
+.sticky .logo .l-line{
+    
+ transition: 0.3s ease;
+    display: none;
+}
+
+
+.sticky .s-header .nav-item {
+    margin-right: 15px;
+    margin-top: 5px;
+    bottom: 3px;
+    transition: 0.3s ease;
+}
+  
+.sticky .s-header .nv-btn1 a{
+    padding: 5px 15px #d1460e;
+    background: linear-gradient(108.18deg, #7b2121 -12.2%, rgb(9, 22, 120) 60%);
+    color:#ff2121;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    
+}
+  
+.sticky .s-header .nv-btn2 a{
+    padding: 5px 15px #d1460e;
+    background: linear-gradient(108.18deg, #7b2121 -12.2%, rgb(9, 22, 120) 60%);
+    color:#ff2121;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.sticky .s-header .nv-btn1 {
+    margin: 5px 20px;
+    transition: 0.3s ease;
+}
+
+.sticky .s-header .nv-btn2 {
+    margin: 5px 0px;
+    transition: 0.3s ease;
+}
+  
+  
+.sticky  .s-header .nav-item::after{
+    background:rgb(234, 198, 198) ;
+    transition: 0.3s ease;
+}
+/* stiky css end */

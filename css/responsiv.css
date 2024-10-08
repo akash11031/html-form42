@@ -1,0 +1,539 @@
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    #preloader{
+      background-size: 30%;
+  }
+    /* header section */
+header .logo {
+  background: none;
+}
+
+header .logo .l-line{
+  display: none;
+}
+
+header .logo img {
+  /* width: 100%;
+  padding-left: 0px; */
+  display: none;
+}
+
+header .f-header .fh-1 .nav-link {
+  padding-left: 10px;
+}
+header .f-header .fh-2 span {
+margin-right: 6px;
+font-size: 18px;
+}
+
+header .f-header .fh-2 {
+/* padding-top: 24px; */
+display: none;
+}
+
+/* benner */
+.bennar-section .container {
+background: url(../img/banner-R-M.png) center center no-repeat;
+background-size: cover;
+height: 50vh;
+}
+
+.bennar-section .bennar h4 {
+  padding: 63px 38% 0px;
+  font-size: 18px;
+}
+
+.bennar-section .b-inner .text-area {
+font-size: 50PX;
+}
+
+.bennar-section .b-inner {
+  top: 25%;
+  left: 55%;
+  right: -20%;
+
+}
+
+.bennar-section .b-date .text {
+font-size: 22px;
+}
+
+.bennar-section .b-date {
+  padding: 40% 0% 3% 35%;
+}
+
+.bennar-section .bennar a {
+padding-left: 35%;
+}
+
+.bennar-section .bennar:hover a{
+padding-left: 34.5%;
+}
+
+.box div:nth-child(1){
+top: 115%;
+left: 28%;
+}
+
+.box div:nth-child(2){
+top: 130%;
+left: 72%;
+}
+
+.box div:nth-child(3){
+top: 142%;
+left: 8%;
+}
+
+.box div:nth-child(4){
+top: 158%;
+left: 62%;
+}
+
+.box div:nth-child(5){
+top: 170%;
+left: 20%;
+}
+
+.box div:nth-child(6){
+top: 184%;
+left: 35%;
+}
+
+.box div:nth-child(7){
+top: 178%;
+left: 58%;
+}
+
+.box div:nth-child(8){
+top: 189%;
+left: 22%;
+}
+
+.box div:nth-child(9){
+top: 200%;
+left: 75%;
+}
+
+.box div:nth-child(10){
+top: 212%;
+left: 80%;
+}
+
+.box div:nth-child(11){
+top: 224%;
+left: 80%;
+}
+
+.box div:nth-child(12){
+top: 238%;
+left: 50%;
+}
+
+.box div:nth-child(13){
+top: 250%;
+left: 71%;
+}
+
+.price-section .price-inner {
+  margin: 15px 10%;
+}
+
+.Service-Section .sr-main .sr-inner {
+  margin: 0px 5%;
+}
+
+.contact-section .cn-right form {
+width: 100%;
+}
+
+.contact-section .cn-left {
+padding: 20px 0px 90px 10px;
+}
+/* css end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+/* header section */
+#preloader{
+  background-size: 30%;
+}
+
+header .logo {
+  background: none;
+}
+
+header .logo .l-line{
+  display: none;
+}
+
+header .logo img {
+  /* width: 100%;
+  padding-left: 0px; */
+  display: none;
+}
+
+header .f-header .fh-1 .nav-link {
+  padding-left: 10px;
+}
+header .f-header .fh-2 span {
+margin-right: 6px;
+font-size: 18px;
+}
+
+header .f-header .fh-2 {
+/* padding-top: 24px; */
+display: none;
+}
+
+/* benner */
+.bennar-section .container {
+background: url(../img/banner-R-M.png) center center no-repeat;
+background-size: cover;
+height: 50vh;
+}
+
+.bennar-section .bennar h4 {
+  padding: 63px 38% 0px;
+  font-size: 18px;
+}
+
+.bennar-section .b-inner .text-area {
+font-size: 30PX;
+}
+
+.bennar-section .b-inner {
+  top: 31%;
+  left: 57%;
+  right: -20%;
+
+}
+
+.bennar-section .b-date .text {
+font-size: 22px;
+}
+
+.bennar-section .b-date {
+  padding: 30% 0% 3% 34%;
+}
+
+.bennar-section .bennar a {
+padding-left: 33%;
+}
+
+.bennar-section .bennar:hover a{
+padding-left: 32.5%;
+}
+
+.box div:nth-child(1){
+top: 115%;
+left: 28%;
+}
+
+.box div:nth-child(2){
+top: 130%;
+left: 72%;
+}
+
+.box div:nth-child(3){
+top: 142%;
+left: 8%;
+}
+
+.box div:nth-child(4){
+top: 158%;
+left: 62%;
+}
+
+.box div:nth-child(5){
+top: 170%;
+left: 20%;
+}
+
+.box div:nth-child(6){
+top: 184%;
+left: 35%;
+}
+
+.box div:nth-child(7){
+top: 178%;
+left: 58%;
+}
+
+.box div:nth-child(8){
+top: 189%;
+left: 22%;
+}
+
+.box div:nth-child(9){
+top: 200%;
+left: 75%;
+}
+
+.box div:nth-child(10){
+top: 212%;
+left: 80%;
+}
+
+.box div:nth-child(11){
+top: 224%;
+left: 80%;
+}
+
+.box div:nth-child(12){
+top: 238%;
+left: 50%;
+}
+
+.box div:nth-child(13){
+top: 250%;
+left: 71%;
+}
+
+.price-section .price-inner {
+  margin: 15px 10%;
+}
+
+.Service-Section .sr-main .sr-inner {
+  margin: 0px 5%;
+}
+
+.contact-section .cn-right form {
+width: 100%;
+}
+
+.contact-section .cn-left {
+padding: 20px 0px 90px 10px;
+}
+
+.sticky{
+  display: none;
+}
+/* css end */
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) { 
+  /* ********header section*******/
+  #preloader{
+    background-size: 30%;
+}
+
+
+  header .logo {
+    background: none;
+}
+
+  header .logo .l-line{
+    display: none;
+  }
+
+  header .logo img {
+    /* width: 100%;
+    padding-left: 0px; */
+    display: none;
+  }
+
+  header .f-header .fh-1 .nav-link {
+    padding-left: 10px;
+}
+header .f-header .fh-2 span {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+header .f-header .fh-2 {
+  /* padding-top: 24px; */
+  display: none;
+}
+  
+/* benner */
+.bennar-section .container {
+  background: url(../img/banner-R-M.png) center center no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.bennar-section .bennar h4 {
+  padding: 60px 33% 0px;
+  font-size: 20px;
+}
+
+.bennar-section .b-inner .text-area {
+  font-size: 30PX;
+}
+
+.bennar-section .b-inner {
+  top: 38%;
+  left: 53%;
+  right: -20%;
+
+}
+
+.bennar-section .b-date .text {
+  font-size: 22px;
+}
+
+.bennar-section .b-date {
+  padding: 57% 0% 3% 29%;
+}
+
+.bennar-section .bennar a {
+  padding-left: 28%;
+}
+
+.bennar-section .bennar:hover a{
+  padding-left: 27%;
+}
+
+.box div:nth-child(1){
+  top: 115%;
+  left: 28%;
+}
+
+.box div:nth-child(2){
+  top: 130%;
+  left: 72%;
+}
+
+.box div:nth-child(3){
+  top: 142%;
+  left: 8%;
+}
+
+.box div:nth-child(4){
+  top: 158%;
+  left: 62%;
+}
+
+.box div:nth-child(5){
+  top: 170%;
+  left: 20%;
+}
+
+.box div:nth-child(6){
+  top: 184%;
+  left: 35%;
+}
+
+.box div:nth-child(7){
+  top: 178%;
+  left: 58%;
+}
+
+.box div:nth-child(8){
+  top: 189%;
+  left: 22%;
+}
+
+.box div:nth-child(9){
+  top: 200%;
+  left: 75%;
+}
+
+.box div:nth-child(10){
+  top: 212%;
+  left: 80%;
+}
+
+.box div:nth-child(11){
+  top: 224%;
+  left: 80%;
+}
+
+.box div:nth-child(12){
+  top: 238%;
+  left: 50%;
+}
+
+.box div:nth-child(13){
+  top: 250%;
+  left: 71%;
+}
+
+.price-section .price-inner {
+  margin: 15px 15px;
+}
+
+.contact-section .cn-right form {
+  width: 100%;
+}
+
+.contact-section .cn-left {
+  padding: 20px 0px 90px 10px;
+}
+
+.sticky{
+  display: none;
+}
+/* ***********end****************/
+}
+
+
+
+
+
+
+ 
